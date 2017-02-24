@@ -1,0 +1,33 @@
+{
+  "name": "workload-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js",
+    "start-db": "mongod --dbpath ./data/db",
+    "init-db": "mkdir -p data/db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjiandy/workload-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjiandy/workload-server/issues"
+  },
+  "homepage": "https://github.com/rjiandy/workload-server#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mongodb": "^2.2.24"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
+  }
+}
